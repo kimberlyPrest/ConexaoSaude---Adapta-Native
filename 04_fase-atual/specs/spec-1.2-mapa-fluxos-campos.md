@@ -73,14 +73,17 @@ Um mapa aprovado da jornada de 16 passos (seção 4) com, para cada passo: respo
 
 ## Teste humano do cliente
 
-Não aplicável: nada desta SPEC aparece para o cliente. Ela fecha pela prova automática.
-
-- **Ritmo:** construir as tasks vinculadas em sequência, sem pedir autorização nem teste a cada task.
-- **Prova que substitui o teste:** CA-1-005 pelo mapa com os 16 passos preenchidos; CA-1-006 pelos 12 grupos com dono confirmado; CA-1-007 pelo inventário de integrações com situação de acesso real; CA-1-008 e CA-1-009 pelo registro das decisões e dos aceites com responsável e evidência.
-- **Onde o cliente vê:** o mapa e o inventário são a referência das telas da SPEC-1-007; nenhuma integração é implementada nesta fase.
+- **Ritmo:** construir as tasks vinculadas em sequência, sem pedir autorização nem teste a cada task. Decisões imprescindíveis e acesso que só o cliente tem continuam sendo paradas.
+- **Quando:** na F1-T006, após o mapa e o inventário preparados, conforme CA-1-008/009. As decisões exigidas antes das levas seguintes continuam pré-condições e não são adiadas para a demonstração final.
+- **Quem testa:** Leonardo, áreas assistenciais, TI, regulação e gestão, conforme CA-1-009; o consultor prepara e registra.
+- **Passos:** 1) revisar a jornada e as fontes oficiais de cada passo com as respectivas áreas; 2) conferir os donos de confirmação dos grupos de dados e a situação real de acesso das integrações; 3) registrar as decisões previstas e o aceite de cada área, nomeando pendências com responsável e prazo quando admitidas nesta SPEC.
+- **Resultado esperado:** CA-1-005 a CA-1-009 preservados, inclusive as decisões e os aceites humanos de todas as áreas exigidas.
+- **Evidência do aceite:** registros de aceite por área e decisões com responsável/evidência anexados ao mapa e referenciados no changelog. O agente pode conferir completude, mas não aprovar pelas áreas.
 
 ## Emendas
 
 | Data | Origem do sinal | Micro-spec/task | Motivo |
 |---|---|---|---|
 | 30/10/2026 | Teste por SPEC | SPEC-1-002 / F1-T004 a F1-T006 | Seção `## Teste humano do cliente`: não aplicável; fecha pela prova do mapa, dos grupos e dos aceites registrados. F1-T006 continua sendo o registro formal de aceite das cinco áreas. |
+
+| 30/10/2026 | Correção de auditoria | Teste do cliente | Corrige a classificação de validação humana como prova automática; critérios, decisões, responsáveis, tasks e TDD preservados. |

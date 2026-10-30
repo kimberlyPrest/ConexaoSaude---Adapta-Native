@@ -73,11 +73,12 @@ Uma fonte de baseline preenchível com os 3 indicadores do piloto (tempo adminis
 
 ## Teste humano do cliente
 
-Não aplicável: nada desta SPEC aparece para o cliente. Ela fecha pela prova automática.
-
-- **Ritmo:** construir as tasks vinculadas em sequência, sem pedir autorização nem teste a cada task.
-- **Prova que substitui o teste:** CA-1-001 a CA-1-003 pela planilha de baseline preenchida com numerador, denominador, fonte e status de cada indicador; CA-1-004 pelo método de medição registrado com a aprovação da gestão anexada.
-- **Onde o cliente vê:** os três indicadores do baseline aparecem no painel da SPEC-1-007, com a marca de medido/a medir.
+- **Ritmo:** construir as tasks vinculadas em sequência, sem pedir autorização nem teste a cada task. Isso não dispensa decisão ou aprovação humana exigida nos critérios.
+- **Quando:** na F1-T003, após preparar o baseline e o método de medição. É o ponto de aprovação desta SPEC previsto no CA-1-004; não deve ser adiado ao aceite final da fase.
+- **Quem testa:** Leonardo/gestão, com o consultor, conforme esta SPEC.
+- **Passos:** 1) ler o período, a amostra, as exclusões e as fontes dos três indicadores; 2) conferir os dados disponíveis e as pendências explícitas, sem preencher o que não foi medido por suposição; 3) aprovar por escrito o método ou registrar a divergência para revisão.
+- **Resultado esperado:** CA-1-001 a CA-1-004 preservados: indicadores com valor/fonte ou pendência permitida e método registrado e aprovado por Leonardo/gestão.
+- **Evidência do aceite:** aprovação de Leonardo/gestão anexada ao método, com referência no changelog. Conferência automática de campos não substitui essa aprovação; não é necessário outro teste técnico do cliente nesta SPEC.
 
 ## Emendas
 
@@ -85,3 +86,5 @@ Não aplicável: nada desta SPEC aparece para o cliente. Ela fecha pela prova au
 |---|---|---|---|
 | 06/10/2026 | Replanejamento escopo integral | CA-1-004 + F1-T003 | Decisão da seção 17 exige método de medição aprovado |
 | 30/10/2026 | Teste por SPEC | SPEC-1-001 / F1-T001 a F1-T003 | Seção `## Teste humano do cliente`: não aplicável; fecha pela prova do baseline e do método aprovado. |
+
+| 30/10/2026 | Correção de auditoria | Teste do cliente | Corrige a classificação de validação humana como prova automática; critérios, decisões, responsáveis, tasks e TDD preservados. |

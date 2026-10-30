@@ -69,14 +69,19 @@ Trilha de auditoria completa (autor, data, conteúdo anterior, novo conteúdo e 
 
 ## Teste humano do cliente
 
-Não aplicável: nada desta SPEC aparece para o cliente. Ela fecha pela prova automática.
+Não há teste de tela separado nesta SPEC. As provas técnicas são executadas pelo implementador; a decisão de política da TI e a assinatura do relatório continuam humanas, conforme os responsáveis e a evidência exigida acima.
 
-- **Ritmo:** construir as tasks vinculadas em sequência, sem pedir autorização nem teste a cada task.
-- **Prova que substitui o teste:** CA-1-020 pela trilha append-only com autor, data, conteúdo anterior, novo e motivo; CA-1-021 pelas políticas de Storage provadas com acesso negado a quem não pode ver; CA-1-022 pelo relatório do ensaio de restauração cobrindo banco e arquivos.
-- **Onde o cliente vê:** a recuperação ensaiada é apresentada na demonstração da SPEC-1-007, e o relatório fica anexado ao aceite da fase.
+- **Ritmo:** construir as tasks vinculadas em sequência, sem pedir autorização nem teste a cada task. A decisão de região, retenção, backup e metas continua na F1-T015 e nas pré-condições existentes.
+- **Quando:** após o ensaio de restauração da F1-T015, para revisão e assinatura do relatório pela TI. A apresentação da recuperação ao restante do cliente fica no aceite da SPEC-1-007; não pedir ao cliente para executar restauração ou regressão por papel.
+- **Quem valida:** TI, com o consultor que implementa e executa o ensaio, conforme esta SPEC.
+- **Passos:** 1) receber o relatório preparado pelo consultor com a recuperação de registros, versões, anexos e vínculos; 2) conferir responsáveis, tempo de recuperação e procedimento documentados; 3) registrar a assinatura da TI ou a divergência que exige corrigir o ensaio.
+- **Resultado esperado:** CA-1-020, CA-1-021 e CA-1-022 preservados; provas de auditoria, negações de acesso e restauração ficam a cargo da implementação, sem substituir a decisão e a assinatura da TI.
+- **Evidência do aceite:** logs e relatório do ensaio assinado pela TI, apresentado na SPEC-1-007 e referenciado no changelog. Assinatura humana não é prova automática.
 
 ## Emendas
 
 | Data | Origem do sinal | Micro-spec/task | Motivo |
 |---|---|---|---|
 | 30/10/2026 | Teste por SPEC | SPEC-1-006 / F1-T014 e F1-T015 | Seção `## Teste humano do cliente`: não aplicável; fecha pela prova da auditoria, das políticas de Storage e do ensaio de restauração. |
+
+| 30/10/2026 | Correção de auditoria | Teste do cliente | Corrige a classificação de validação humana como prova automática; critérios, decisões, responsáveis, tasks e TDD preservados. |

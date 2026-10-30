@@ -48,4 +48,4 @@ Por SPEC, não por task. Nesta fase é um teste: a demonstração por perfil da 
 - **Regra de execução:** nenhuma task da Leva D em diante começa sem as decisões 1, 2, 4 e 5 da seção 17 registradas (T1.3/T1.6 concluídas).
 - **Ambientes:** desenvolvimento usa dados fictícios; homologação usa dados fictícios/anonimizados; produção só após controles e contratos (seção 10.2).
 - **Fases 2–5:** SPECs chegam na onda (D21) — Fase 2 (Ondas 2–3) será detalhada durante a Fase 1 via `liberar-fase`.
-- 30/10: teste do cliente passa a ser por SPEC (um na fase: a demonstração por perfil da SPEC-1-007). O ritmo deixa de pedir autorização e teste a cada task; as demais SPECs fecham pela prova automática.
+- 30/10: teste do cliente por SPEC, sem autorização/teste rotineiro por task. A demonstração/aceite da fase é na SPEC-1-007; aprovações do método (001), aceites por área (002) e decisão/assinatura da TI (006) continuam humanos e nos momentos já exigidos. Provas técnicas e validações humanas não são equivalentes.
