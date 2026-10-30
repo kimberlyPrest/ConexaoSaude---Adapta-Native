@@ -66,7 +66,17 @@ Telas essenciais da fundação operando sobre o Supabase: login com MFA, seleç�
 |---|---|---|---|---|---|---|---|---|
 | F1-T016 | Construir telas essenciais e executar demonstração de aceite | Consultor Adapta + Leonardo | SPEC-1-007 | CA-1-023 a CA-1-025 | GREEN demonstração | Ata + vídeo + aceites | T1.13 e T1.15 concluídas | ☐ |
 
+## Teste humano do cliente
+
+- **Ritmo:** construir as tasks vinculadas em sequência, sem pedir autorização nem teste a cada task.
+- **Quando:** quando F1-T012 a F1-T016 estiverem no ar. É o teste desta SPEC e o aceite da Fase 1 (F1-T016, CA-1-023 a CA-1-025).
+- **Quem testa:** Leonardo, as áreas assistenciais, a TI, a regulação e a gestão.
+- **Passos:** 1) entrar com o segundo fator e escolher instituição e unidade; 2) cada perfil executar a própria tarefa: recepção cadastra paciente com alerta de duplicidade, navegação abre a jornada, médico e farmácia veem a tarefa do perfil, regulação e gestão consultam o que lhes cabe; 3) tentar, com um perfil de outra instituição, abrir a mesma ficha pelo link direto e conferir a negativa registrada; 4) cadastrar o mesmo paciente duas vezes e conferir o encaminhamento para conferência, sem fusão automática; 5) abrir o relatório do ensaio de restauração e comparar a tela nova com o projeto congelado do Skip.
+- **Resultado esperado:** cada perfil executa a sua tarefa; o acesso cruzado entre instituições é negado ao vivo; a recuperação ensaiada é apresentada; o aceite da fundação é registrado (CA-1-023 a CA-1-025).
+- **Evidência do aceite:** mensagem do Leonardo confirmando a demonstração e o aceite da fundação, registrada no changelog.
+
 ## Emendas
 
 | Data | Origem do sinal | Micro-spec/task | Motivo |
 |---|---|---|---|
+| 30/10/2026 | Teste por SPEC | SPEC-1-007 / F1-T016 | Seção `## Teste humano do cliente`: teste único da SPEC, que é o aceite da Fase 1 (CA-1-023 a CA-1-025). |

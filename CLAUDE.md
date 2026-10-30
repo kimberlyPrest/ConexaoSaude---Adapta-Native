@@ -17,3 +17,6 @@ https://github.com/kimberlyPrest/ConexaoSaude---Adapta-Native
 
 ## Fase atual
 Fase 1: fundação e definições (Ondas 0 e 1) — 7 SPECs, 25 critérios de aceite e 16 tasks aprovadas para execução.
+
+## Ritmo
+Tasks em sequência, sem pedir autorização nem teste entre elas. O teste do cliente é por SPEC: nesta fase, a demonstração por perfil da SPEC-1-007, que é o aceite da fase. Regra completa em `AGENTS.md`.

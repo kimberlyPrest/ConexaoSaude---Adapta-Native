@@ -67,7 +67,16 @@ O projeto já iniciado no Skip congelado em versão identificada (data + lista d
 | F1-T007 | Congelar versão de referência do projeto Skip | TI + Consultor | SPEC-1-003 | CA-1-010 | GREEN inventário | Registro da versão congelada | Acesso ao projeto | ☐ |
 | F1-T008 | Inventariar e classificar todas as áreas | Consultor Adapta | SPEC-1-003 | CA-1-011, CA-1-012 | GREEN inventário | Inventário completo classificado | T1.7 concluída | ☐ |
 
+## Teste humano do cliente
+
+Não aplicável: nada desta SPEC aparece para o cliente. Ela fecha pela prova automática.
+
+- **Ritmo:** construir as tasks vinculadas em sequência, sem pedir autorização nem teste a cada task.
+- **Prova que substitui o teste:** CA-1-010 pela versão congelada identificada com data e lista de módulos; CA-1-011 pelo inventário com dono, objetivo e situação por item; CA-1-012 pela evidência registrada de cada item classificado como descartar.
+- **Onde o cliente vê:** a comparação entre telas novas e o projeto congelado aparece na demonstração da SPEC-1-007.
+
 ## Emendas
 
 | Data | Origem do sinal | Micro-spec/task | Motivo |
 |---|---|---|---|
+| 30/10/2026 | Teste por SPEC | SPEC-1-003 / F1-T007 e F1-T008 | Seção `## Teste humano do cliente`: não aplicável; fecha pelo inventário congelado e classificado. |

@@ -71,7 +71,16 @@ Um mapa aprovado da jornada de 16 passos (seção 4) com, para cada passo: respo
 | F1-T005 | Consolidar grupos de dados e inventário de integrações | Consultor Adapta + TI | SPEC-1-002 | CA-1-006, CA-1-007 | GREEN mapa | Grupos com dono + integrações com situação | T1.4 em andamento | ☐ |
 | F1-T006 | Registrar decisões 1 e 2 da seção 17 e coletar aceites | Leonardo + TI + Consultor | SPEC-1-002 | CA-1-008, CA-1-009 | REGRESSÃO aceite | Aceites das 5 áreas registrados | T1.4 e T1.5 concluídas | ☐ |
 
+## Teste humano do cliente
+
+Não aplicável: nada desta SPEC aparece para o cliente. Ela fecha pela prova automática.
+
+- **Ritmo:** construir as tasks vinculadas em sequência, sem pedir autorização nem teste a cada task.
+- **Prova que substitui o teste:** CA-1-005 pelo mapa com os 16 passos preenchidos; CA-1-006 pelos 12 grupos com dono confirmado; CA-1-007 pelo inventário de integrações com situação de acesso real; CA-1-008 e CA-1-009 pelo registro das decisões e dos aceites com responsável e evidência.
+- **Onde o cliente vê:** o mapa e o inventário são a referência das telas da SPEC-1-007; nenhuma integração é implementada nesta fase.
+
 ## Emendas
 
 | Data | Origem do sinal | Micro-spec/task | Motivo |
 |---|---|---|---|
+| 30/10/2026 | Teste por SPEC | SPEC-1-002 / F1-T004 a F1-T006 | Seção `## Teste humano do cliente`: não aplicável; fecha pela prova do mapa, dos grupos e dos aceites registrados. F1-T006 continua sendo o registro formal de aceite das cinco áreas. |

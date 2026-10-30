@@ -67,7 +67,16 @@ Trilha de auditoria completa (autor, data, conteúdo anterior, novo conteúdo e 
 | F1-T014 | Implementar auditoria append-only e políticas de Storage | Consultor Adapta | SPEC-1-006 | CA-1-020, CA-1-021 | RED/GREEN auditoria | Logs + políticas testadas | T1.11 concluída | ☐ |
 | F1-T015 | Registrar decisão de região/retenção/backup e executar ensaio de restauração | TI + Consultor | SPEC-1-006 | CA-1-022 | REGRESSÃO restauração | Relatório do ensaio | T1.14 concluída | ☐ |
 
+## Teste humano do cliente
+
+Não aplicável: nada desta SPEC aparece para o cliente. Ela fecha pela prova automática.
+
+- **Ritmo:** construir as tasks vinculadas em sequência, sem pedir autorização nem teste a cada task.
+- **Prova que substitui o teste:** CA-1-020 pela trilha append-only com autor, data, conteúdo anterior, novo e motivo; CA-1-021 pelas políticas de Storage provadas com acesso negado a quem não pode ver; CA-1-022 pelo relatório do ensaio de restauração cobrindo banco e arquivos.
+- **Onde o cliente vê:** a recuperação ensaiada é apresentada na demonstração da SPEC-1-007, e o relatório fica anexado ao aceite da fase.
+
 ## Emendas
 
 | Data | Origem do sinal | Micro-spec/task | Motivo |
 |---|---|---|---|
+| 30/10/2026 | Teste por SPEC | SPEC-1-006 / F1-T014 e F1-T015 | Seção `## Teste humano do cliente`: não aplicável; fecha pela prova da auditoria, das políticas de Storage e do ensaio de restauração. |

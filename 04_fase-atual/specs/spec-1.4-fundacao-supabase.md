@@ -72,7 +72,16 @@ No Supabase: cadastro de instituições e unidades, equipes, especialidades, ví
 | F1-T010 | Implementar Auth, convites, bloqueio e MFA | Consultor Adapta | SPEC-1-004 | CA-1-014 | GREEN MFA | Fluxo de MFA demonstrado | T1.9 concluída | ☐ |
 | F1-T011 | Implementar RLS por papel/instituição + auditoria de negações | Consultor Adapta | SPEC-1-004 | CA-1-013, CA-1-015, CA-1-016 | RED/GREEN RLS | Logs de teste com prova negativa | T1.9 e T1.10 concluídas | ☐ |
 
+## Teste humano do cliente
+
+Não aplicável: nada desta SPEC aparece para o cliente. Ela fecha pela prova automática.
+
+- **Ritmo:** construir as tasks vinculadas em sequência, sem pedir autorização nem teste a cada task.
+- **Prova que substitui o teste:** CA-1-013, CA-1-014 e CA-1-016 pela prova negativa de RLS e de acesso cruzado por instituição, com os logs de negação; CA-1-015 pela matriz dos 11 perfis aplicada e pelo registro de acesso excepcional de TI com motivo e auditoria.
+- **Onde o cliente vê:** os perfis entram na demonstração da SPEC-1-007; a prova negativa de acesso cruzado é repetida ao vivo no CA-1-024.
+
 ## Emendas
 
 | Data | Origem do sinal | Micro-spec/task | Motivo |
 |---|---|---|---|
+| 30/10/2026 | Teste por SPEC | SPEC-1-004 / F1-T009 a F1-T011 | Seção `## Teste humano do cliente`: não aplicável; fecha pela prova negativa de RLS e pela matriz dos 11 perfis. |

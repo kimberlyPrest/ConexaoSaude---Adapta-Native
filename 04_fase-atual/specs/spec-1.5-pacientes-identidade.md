@@ -69,7 +69,16 @@ Cadastro de paciente com identificação, contatos, responsáveis, preferências
 | F1-T012 | Modelar e implementar cadastro de pacientes com separação admin/clínico | Consultor Adapta | SPEC-1-005 | CA-1-019 | GREEN cadastro | Migrações + RLS testado | T1.11 concluída | ☐ |
 | F1-T013 | Implementar duplicidade, conferência e fusão com histórico | Consultor Adapta | SPEC-1-005 | CA-1-017, CA-1-018 | RED/GREEN duplicidade | Logs dos 3 cenários | T1.12 concluída | ☐ |
 
+## Teste humano do cliente
+
+Não aplicável: nada desta SPEC aparece para o cliente. Ela fecha pela prova automática.
+
+- **Ritmo:** construir as tasks vinculadas em sequência, sem pedir autorização nem teste a cada task.
+- **Prova que substitui o teste:** CA-1-017 pelos dois registros candidatos encaminhados à conferência; CA-1-018 pela fusão que preserva histórico e registra a operação; CA-1-019 pela separação entre campos clínicos e administrativos com o mesmo RLS da fundação.
+- **Onde o cliente vê:** o cadastro de paciente com alerta de duplicidade é uma das telas da demonstração da SPEC-1-007.
+
 ## Emendas
 
 | Data | Origem do sinal | Micro-spec/task | Motivo |
 |---|---|---|---|
+| 30/10/2026 | Teste por SPEC | SPEC-1-005 / F1-T012 e F1-T013 | Seção `## Teste humano do cliente`: não aplicável; fecha pela prova de duplicidade e fusão com histórico. |

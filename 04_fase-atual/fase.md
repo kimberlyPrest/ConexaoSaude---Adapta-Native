@@ -17,6 +17,10 @@ Mapa de fluxos e campos aprovado por Leonardo, áreas assistenciais, TI, regula�
 - Integrações reais (F22) — Fase 5, Onda 7; nesta fase apenas se IDENTIFICA o contrato.
 - Migração de pacientes reais — bloqueada até base exportável + autorização + plano de conciliação (seção 11, etapa 6).
 
+## Teste do cliente
+
+Por SPEC, não por task. Nesta fase é um teste: a demonstração por perfil da SPEC-1-007 (F1-T016), que é o aceite da fase — cada perfil executa a sua tarefa, o acesso cruzado entre instituições é negado ao vivo e a recuperação ensaiada é apresentada. As demais SPECs fecham pela prova automática: baseline e método (SPEC-1-001), mapa e integrações (SPEC-1-002), inventário do Skip (SPEC-1-003), fundação com RLS e os 11 perfis (SPEC-1-004), pacientes e fusão (SPEC-1-005) e auditoria, Storage e restauração (SPEC-1-006). Regra completa em `AGENTS.md`.
+
 ## Tasks
 
 | ID | Task | Dono | SPEC | Critério | Recorte da prova | Evidência esperada | Pré-condições | Leva | Status |
@@ -44,3 +48,4 @@ Mapa de fluxos e campos aprovado por Leonardo, áreas assistenciais, TI, regula�
 - **Regra de execução:** nenhuma task da Leva D em diante começa sem as decisões 1, 2, 4 e 5 da seção 17 registradas (T1.3/T1.6 concluídas).
 - **Ambientes:** desenvolvimento usa dados fictícios; homologação usa dados fictícios/anonimizados; produção só após controles e contratos (seção 10.2).
 - **Fases 2–5:** SPECs chegam na onda (D21) — Fase 2 (Ondas 2–3) será detalhada durante a Fase 1 via `liberar-fase`.
+- 30/10: teste do cliente passa a ser por SPEC (um na fase: a demonstração por perfil da SPEC-1-007). O ritmo deixa de pedir autorização e teste a cada task; as demais SPECs fecham pela prova automática.

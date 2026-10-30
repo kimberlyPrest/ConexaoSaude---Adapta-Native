@@ -71,8 +71,17 @@ Uma fonte de baseline preenchível com os 3 indicadores do piloto (tempo adminis
 | F1-T002 | Preencher ou marcar pendências dos indicadores | Gestão operacional | SPEC-1-001 | CA-1-001 a CA-1-003 | GREEN baseline | Indicadores com fonte/status | Estrutura criada | ☐ |
 | F1-T003 | Registrar método de medição e obter aprovação | Consultor Adapta + Leonardo | SPEC-1-001 | CA-1-004 | REGRESSÃO método | Método registrado com aceite | T1.2 concluída | ☐ |
 
+## Teste humano do cliente
+
+Não aplicável: nada desta SPEC aparece para o cliente. Ela fecha pela prova automática.
+
+- **Ritmo:** construir as tasks vinculadas em sequência, sem pedir autorização nem teste a cada task.
+- **Prova que substitui o teste:** CA-1-001 a CA-1-003 pela planilha de baseline preenchida com numerador, denominador, fonte e status de cada indicador; CA-1-004 pelo método de medição registrado com a aprovação da gestão anexada.
+- **Onde o cliente vê:** os três indicadores do baseline aparecem no painel da SPEC-1-007, com a marca de medido/a medir.
+
 ## Emendas
 
 | Data | Origem do sinal | Micro-spec/task | Motivo |
 |---|---|---|---|
 | 06/10/2026 | Replanejamento escopo integral | CA-1-004 + F1-T003 | Decisão da seção 17 exige método de medição aprovado |
+| 30/10/2026 | Teste por SPEC | SPEC-1-001 / F1-T001 a F1-T003 | Seção `## Teste humano do cliente`: não aplicável; fecha pela prova do baseline e do método aprovado. |
