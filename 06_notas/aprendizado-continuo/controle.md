@@ -1,0 +1,1 @@
+- 2026-11-03 · tasks F1-T001/F1-T002/F1-T007 · sem sinal reutilizável · entregas documentais verificadas, sem incidente ou causa raiz nova.
