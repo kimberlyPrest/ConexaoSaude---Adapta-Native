@@ -30,3 +30,10 @@
 - Descoberta: o inventário da seção 2 do escopo refere-se ao projeto 50880 Oncologista Clínico Virtual (PocketBase, 0.0.42/0645000, não publicado), e não ao 64011. Os dois foram separados no registro; nenhum foi alterado.
 - CID genérico não comprovado em cidMapping.ts; mantido como "a confirmar". Nenhum dado de paciente foi lido, copiado ou migrado.
 - Correção de regressão própria (03/11): ao reescrever 04_fase-atual/fase.md para atualizar status, o critério da F1-T013 perdeu o CA-1-017. Comparação com o arquivo original (99bcde9) mostrou a perda; o valor foi restaurado para "CA-1-017, 018". Nenhum outro campo, task ou critério foi alterado.
+
+## 2026-11-03 — F1-T003 concluída: método de medição aprovado
+- **DECISÃO DO CLIENTE (Leonardo, 03/11/2026 17:17 BRT):** “Aprovo o método como proposto.” Aprovação do desenho de medição exigida pelo CA-1-004 e pela decisão “Linha de base e método de medição” da seção 17 do escopo.
+- [Tesla] F1-T003 concluída (CA-1-004): registro em 06_notas/baseline/metodo-medicao.md, com a aprovação datada e a evidência da resposta. **SPEC-1-001 fechada** — F1-T001, F1-T002 e F1-T003 concluídas.
+- A aprovação cobre o desenho: uma semana operacional comparável, amostra de todas as consultas concluídas nos turnos, exclusão de cancelamentos/faltas/transferências/sem data e fontes registradas. Não foi inferida de pedido anterior, silêncio ou “ok” solto.
+- Pendências de execução mantidas como lacuna explícita, não estimadas: unidade/equipe do piloto, datas de início e fim, duração de referência do turno, coletor do tempo administrativo e fontes oficiais de atendimento e fila. A decisão 2 da seção 17 continua com TI e donos de processo.
+- Correção de registro (03/11, 17:25 BRT): o commit 3b6ceb1 salvou a aprovação no método, na análise e no estado, mas não incluiu este changelog, o quadro da fase e o STATUS. Os três foram atualizados em seguida; nada de conteúdo do cliente mudou.

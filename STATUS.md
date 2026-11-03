@@ -1,7 +1,7 @@
 # Status — Conexão Saúde e Vida
 
 **Fase:** 1 — Fundação e definições (Ondas 0 e 1)
-**Status:** execução iniciada; 4/16 tasks concluídas (25%). F1-T001, F1-T002, F1-T007 e F1-T008 têm prova documental. F1-T003 aguarda aprovação; F1-T004 aguarda confirmação operacional. Demais 10 tasks não concluídas.
+**Status:** 5/16 tasks concluídas (31,25%). **SPEC-1-001 (baseline e método de medição) fechada e aprovada por Leonardo em 03/11/2026.** F1-T001, F1-T002, F1-T003, F1-T007 e F1-T008 concluídas. F1-T004 aguarda confirmação de gestão/TI; F1-T005 e F1-T006 dependem dela; da Leva D em diante, bloqueado até a F1-T006 registrar as decisões 1 e 2 da seção 17.
 
 ## Próximas ações
 
@@ -12,8 +12,8 @@
 
 ## Execução — 03/11/2026
 - Entregas: 06_notas/baseline/indicadores.csv e README.md; 06_notas/inventario-skip/referencia.md e inventario.md.
-- Método proposto: 06_notas/baseline/metodo-medicao.md — sem aprovação; decisão humana não substituída por conferência automática.
-- Impedimento F1-T003: aprovação e parâmetros operacionais ausentes — gestão deve revisar método, unidade/equipe, datas, duração do turno, coletor e fontes.
+- F1-T003 concluída: método aprovado por Leonardo em 03/11/2026 17:17 BRT (“Aprovo o método como proposto”), CA-1-004 satisfeito. SPEC-1-001 fechada.
+- Para executar a medição faltam parâmetros operacionais: unidade/equipe, datas da semana, duração do turno, coletor e fontes oficiais. Ficam como “a medir”, sem valor estimado.
 - Impedimento F1-T004: contexto real e fontes oficiais por etapa não confirmados — gestão/TI devem revisar 06_notas/jornada/mapa.md. Rascunho não satisfaz CA-1-005.
 - Skip sem mudanças, sem publicação; divergência entre referência atual e publicada preservada. Supabase existente não foi recriado nem alterado; a F1-T009 precisa reconciliar o projeto real pelo conector antes de qualquer migração.
 - As aprovações institucionais continuam pré-condições para Leva D em diante.
