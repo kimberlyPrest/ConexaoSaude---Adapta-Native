@@ -2,22 +2,22 @@
 - schema_version: adapta-cliente-state/v3
 - task_id: nenhuma
 - executor: Tesla
-- owner_informativo: Leonardo (decisões) / Consultor Adapta (execução)
-- spec: 04_fase-atual/specs/spec-1.1-baseline-metricas.md (fechada) e spec-1.3-inventario-skip.md (fechada)
-- analise: .adapta-cliente/analises/F1-T003.md
-- etapa: concluida
-- autorizacao_implementacao: confirmada em 2026-11-03 16:27 BRT — “inicie a implementação” e “implemente no skip a primeira tarefa”
+- owner_informativo: Consultor Adapta + TI
+- spec: 04_fase-atual/specs/spec-1.2-mapa-fluxos-campos.md
+- analise: .adapta-cliente/analises/F1-T005.md
+- etapa: aguardando_resposta
+- autorizacao_implementacao: confirmada em 2026-11-03 16:27 BRT e reforçada às 17:20 — "pode continuar trabalhando até a conclusão desta etapa"
 - aguardando_teste: nenhuma
-- em_espera: F1-T004 — contexto real e fontes oficiais por gestão/TI; F1-T005/F1-T006 — dependem do mapa, das fontes e dos aceites das cinco áreas; Leva D em diante — bloqueada até as decisões 1, 2, 4 e 5 da seção 17
-- teste_humano: aprovado:SPEC-1-001 — método de medição aprovado por Leonardo em 2026-11-03 17:17 BRT (“Aprovo o método como proposto”)
-- verificacao_automatica: passou — F1-T001, F1-T002, F1-T003, F1-T007 e F1-T008 verificadas
+- em_espera: F1-T004 e F1-T006 — dependem de gestão/TI e das cinco áreas; F1-T009 em diante (Leva D) — bloqueada até as decisões 1, 2, 4 e 5 da seção 17
+- teste_humano: aprovado:SPEC-1-001 — método de medição aprovado por Leonardo em 2026-11-03 17:17 BRT; SPEC-1-002 e SPEC-1-003 fecham por prova documental
+- verificacao_automatica: passou — F1-T001, F1-T002, F1-T003, F1-T005, F1-T007 e F1-T008 verificadas
 - aprendizado: capturado:06_notas/aprendizado-continuo/
 - sistema: 07-sistemas/plataforma-oncologica/
 - skip_projeto: 64011 (fundação) e 50880 (projeto inventariado)
 - skip_versao: 15b9ef0 no 64011; 0645000 no 50880
 - skip_publicacao: nao_aplicavel — nenhuma alteração em qualquer projeto
-- pendente_github: nao:escrita liberada apos convite
+- pendente_github: nao
 - decisao_cliente: 2026-11-03 16:48 — F1-T001 mantida como documento (opção A) e convite ao leonardofq-alt; 2026-11-03 17:17 — método de medição aprovado como proposto
-- ultima_acao: F1-T003 concluída com aprovação registrada; SPEC-1-001 fechada
-- proxima_acao: a próxima task técnica depende de confirmação de gestão/TI (F1-T004) ou das decisões da seção 17 (F1-T006)
-- atualizado_em: 2026-11-03T17:20:00-03:00
+- ultima_acao: F1-T005 concluída e registrada; etapa encerrada por depender de decisão de terceiros
+- proxima_acao: receber de Leonardo/gestão/TI as decisões 1, 2, 4 e 5 da seção 17, a confirmação operacional da F1-T004 e os aceites da F1-T006
+- atualizado_em: 2026-11-03T17:24:31-03:00
