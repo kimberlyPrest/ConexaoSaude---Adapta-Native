@@ -37,3 +37,12 @@
 - A aprovação cobre o desenho: uma semana operacional comparável, amostra de todas as consultas concluídas nos turnos, exclusão de cancelamentos/faltas/transferências/sem data e fontes registradas. Não foi inferida de pedido anterior, silêncio ou “ok” solto.
 - Pendências de execução mantidas como lacuna explícita, não estimadas: unidade/equipe do piloto, datas de início e fim, duração de referência do turno, coletor do tempo administrativo e fontes oficiais de atendimento e fila. A decisão 2 da seção 17 continua com TI e donos de processo.
 - Correção de registro (03/11, 17:25 BRT): o commit 3b6ceb1 salvou a aprovação no método, na análise e no estado, mas não incluiu este changelog, o quadro da fase e o STATUS. Os três foram atualizados em seguida; nada de conteúdo do cliente mudou.
+
+## 2026-11-03 — F1-T005 concluída: grupos de dados e integrações
+- [Tesla] F1-T005 concluída (CA-1-006, CA-1-007). Artefatos: 06_notas/jornada/grupos-dados.md e 06_notas/jornada/integracoes.md.
+- CA-1-006: os 12 grupos de dados da seção 9 com o responsável de confirmação definido no escopo e a confirmação nominal marcada "a confirmar". Regras de qualidade da seção 9 transcritas para o desenho de banco das próximas tasks.
+- CA-1-007: os 8 destinos/origens da seção 12 com uso pretendido, condição de conclusão, situação de acesso real, responsável pela confirmação e prazo.
+- Situação de acesso: as oito integrações estão "não verificadas". Nenhuma conexão foi presumida, nenhuma rota foi escolhida e nenhuma credencial ou endereço de serviço foi registrado. Escolha de rota e confirmação nominal são da F1-T006.
+- Achado registrado sem correção por mim: o escopo grafa o produto como "TASI/TASY" na mesma célula; grafia, versão e contrato de dados precisam ser confirmados pela TI.
+- Verificação por script: 12 linhas com 5 colunas preenchidas e 8 linhas com 7 colunas preenchidas; PASSOU. Nenhum dado de paciente lido; nenhuma alteração no Skip ou no banco.
+- Falha de processo própria (03/11): usei `git reset --hard` após um envio parcial, o que descartou alterações locais ainda não enviadas. Os registros foram refeitos e reenviados arquivo por arquivo. `git reset --hard` está proibido pelos guardrails e não será usado de novo.
