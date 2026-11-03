@@ -9,6 +9,9 @@ Status, fonte e pendência nos três indicadores; dois valores vazios; fila ≈1
 ## F1-T003 — PASSOU (aprovada)
 Método com período, amostra, exclusões e fontes aprovado por Leonardo em 03/11/2026 17:17 BRT. CA-1-004 satisfeito. Regressão testada: sem o documento ou sem o aceite, o critério volta a falhar. Parâmetros operacionais pendentes ficaram como lacuna explícita, sem valor inventado.
 
+## F1-T005 — PASSOU (CA-1-006, CA-1-007)
+12 grupos de dados com dono de confirmação e 8 integrações com condição, situação real, responsável e prazo; conferido por script. As oito integrações estão "não verificadas": nenhuma conexão presumida e nenhuma rota escolhida.
+
 ## F1-T007 — PASSOU (CA-1-010)
 Data, referências distintas, URLs e módulos do projeto 64011 registrados; nenhuma alteração no Skip.
 
@@ -25,4 +28,7 @@ Data, referências distintas, URLs e módulos do projeto 64011 registrados; nenh
 - Limite: conferência documental não equivale a teste clínico, RLS, restauração ou aprovação institucional das áreas.
 
 ## Fechamento da SPEC-1-001
-F1-T001, F1-T002 e F1-T003 concluídas e o método aprovado: SPEC-1-001 fechada em 03/11/2026. Os dados em si continuam “a medir” até a coleta acontecer.
+F1-T001, F1-T002 e F1-T003 concluídas e o método aprovado: SPEC-1-001 fechada em 03/11/2026. Os dados em si continuam "a medir" até a coleta acontecer.
+
+## Fechamento da etapa em 03/11/2026
+6 de 16 tasks concluídas. As 10 restantes dependem de terceiros: confirmação operacional de gestão/TI (F1-T004), aceites das cinco áreas e decisões 1 e 2 da seção 17 (F1-T006) e, da Leva D em diante, as decisões 1, 2, 4 e 5 registradas. Nenhuma task foi aberta fora dessa ordem e nenhuma decisão humana foi tomada pelo agente.

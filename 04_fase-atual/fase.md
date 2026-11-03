@@ -30,7 +30,7 @@ Por SPEC, não por task. Nesta fase é um teste: a demonstração por perfil da 
 | F1-T004 | Mapear a jornada de 16 passos no contexto do piloto | Consultor Adapta | SPEC-1-002 | CA-1-005 | GREEN mapa | Mapa com 16 passos preenchidos | Escopo aprovado | A | ◐ |
 | F1-T007 | Congelar versão de referência do projeto Skip | TI + Consultor | SPEC-1-003 | CA-1-010 | GREEN inventário | Registro da versão congelada | Acesso ao projeto | A | ☑ |
 | F1-T003 | Registrar método de medição e obter aprovação | Consultor + Leonardo | SPEC-1-001 | CA-1-004 | REGRESSÃO método | Método registrado com aceite | T1.2 | B | ☑ |
-| F1-T005 | Consolidar grupos de dados e inventário de integrações | Consultor + TI | SPEC-1-002 | CA-1-006, 007 | GREEN mapa | Grupos com dono + integrações | T1.4 | B | ☐ |
+| F1-T005 | Consolidar grupos de dados e inventário de integrações | Consultor + TI | SPEC-1-002 | CA-1-006, 007 | GREEN mapa | Grupos com dono + integrações | T1.4 | B | ☑ |
 | F1-T008 | Inventariar e classificar todas as áreas do Skip | Consultor Adapta | SPEC-1-003 | CA-1-011, 012 | GREEN inventário | Inventário classificado | T1.7 | B | ☑ |
 | F1-T006 | Registrar decisões 1 e 2 da seção 17 e coletar aceites | Leonardo + TI + Consultor | SPEC-1-002 | CA-1-008, 009 | REGRESSÃO aceite | Aceites das 5 áreas | T1.4, T1.5 | C | ☐ |
 | F1-T009 | Criar projeto Supabase e migrações de instituição/unidade/vínculo | Consultor Adapta | SPEC-1-004 | CA-1-016 | GREEN fundação | Migrações aplicadas em dev | T1.6 | D | ☐ |
@@ -49,4 +49,5 @@ Por SPEC, não por task. Nesta fase é um teste: a demonstração por perfil da 
 - **Ambientes:** desenvolvimento usa dados fictícios; homologação usa dados fictícios/anonimizados; produção só após controles e contratos (seção 10.2).
 - **Fases 2–5:** SPECs chegam na onda (D21) — Fase 2 (Ondas 2–3) será detalhada durante a Fase 1 via `liberar-fase`.
 - 30/10: teste do cliente por SPEC, sem autorização/teste rotineiro por task. A demonstração/aceite da fase é na SPEC-1-007; aprovações do método (001), aceites por área (002) e decisão/assinatura da TI (006) continuam humanos e nos momentos já exigidos. Provas técnicas e validações humanas não são equivalentes.
-- 03/11: F1-T003 concluída — método de medição aprovado por Leonardo às 17:17 BRT (CA-1-004). SPEC-1-001 fechada. As tasks restantes dependem de confirmação de gestão/TI (T004, T005, T006) ou das decisões 1, 2, 4 e 5 da seção 17 antes da Leva D.
+- 03/11: F1-T003 concluída — método de medição aprovado por Leonardo às 17:17 BRT (CA-1-004). SPEC-1-001 fechada. As tasks restantes dependem de confirmação de gestão/TI (T004, T006) ou das decisões 1, 2, 4 e 5 da seção 17 antes da Leva D.
+- 03/11: F1-T005 concluída (CA-1-006, CA-1-007) — 12 grupos de dados com dono de confirmação e 8 integrações com condição, situação real, responsável e prazo. A confirmação nominal e o aceite das cinco áreas continuam na F1-T006.
