@@ -1,0 +1,23 @@
+# Estado atual — Adapta Cliente
+- schema_version: adapta-cliente-state/v3
+- task_id: nenhuma
+- executor: Tesla
+- owner_informativo: Consultor Adapta
+- spec: 04_fase-atual/specs/spec-1.3-inventario-skip.md
+- analise: .adapta-cliente/analises/F1-T008.md
+- etapa: concluida
+- autorizacao_implementacao: confirmada em 2026-11-03 16:27 BRT — “inicie a implementação”
+- aguardando_teste: nenhuma
+- em_espera: F1-T003 — aprovação do método por Leonardo/gestão; F1-T004 — contexto real e fontes por gestão/TI; F1-T005/F1-T006 — dependem do mapa e dos aceites
+- teste_humano: nao_aplicavel:inventário documental conferido (18 áreas, 5 erros com evidência)
+- verificacao_automatica: passou — F1-T008 verificada por leitura do código e conferência de tabela
+- aprendizado: capturado:06_notas/aprendizado-continuo/
+- sistema: 07-sistemas/plataforma-oncologica/
+- skip_projeto: 64011 (fundação) e 50880 (projeto inventariado)
+- skip_versao: 15b9ef0 no 64011; 0645000 no 50880
+- skip_publicacao: nao_aplicavel — nenhuma alteração em qualquer projeto
+- pendente_github: nao:escrita liberada apos convite; commits d5a30cb, 0a1c8b9 e este em main
+- decisao_cliente: 2026-11-03 16:48 — F1-T001 mantida como documento (opção A); convidar leonardofq-alt
+- ultima_acao: F1-T008 concluída, registrada e salva no GitHub
+- proxima_acao: aguardar aprovação do método (F1-T003) e confirmação operacional (F1-T004); próxima task técnica bloqueada por pré-condições
+- atualizado_em: 2026-11-03T16:58:00-03:00

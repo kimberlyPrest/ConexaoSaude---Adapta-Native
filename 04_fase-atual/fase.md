@@ -25,20 +25,20 @@ Por SPEC, não por task. Nesta fase é um teste: a demonstração por perfil da 
 
 | ID | Task | Dono | SPEC | Critério | Recorte da prova | Evidência esperada | Pré-condições | Leva | Status |
 |---|---|---|---|---|---|---|---|---|---|
-| F1-T001 | Criar estrutura do baseline | Consultor Adapta | SPEC-1-001 | CA-1-001..003 | RED/GREEN baseline | Artefato de baseline com campos | Escopo aprovado | A | ☐ |
-| F1-T002 | Preencher ou marcar pendências dos indicadores | Gestão operacional | SPEC-1-001 | CA-1-001..003 | GREEN baseline | Indicadores com fonte/status | T1.1 | A | ☐ |
-| F1-T004 | Mapear a jornada de 16 passos no contexto do piloto | Consultor Adapta | SPEC-1-002 | CA-1-005 | GREEN mapa | Mapa com 16 passos preenchidos | Escopo aprovado | A | ☐ |
-| F1-T007 | Congelar versão de referência do projeto Skip | TI + Consultor | SPEC-1-003 | CA-1-010 | GREEN inventário | Registro da versão congelada | Acesso ao projeto | A | ☐ |
-| F1-T003 | Registrar método de medição e obter aprovação | Consultor + Leonardo | SPEC-1-001 | CA-1-004 | REGRESSÃO método | Método registrado com aceite | T1.2 | B | ☐ |
+| F1-T001 | Criar estrutura do baseline | Consultor Adapta | SPEC-1-001 | CA-1-001..003 | RED/GREEN baseline | Artefato de baseline com campos | Escopo aprovado | A | ☑ |
+| F1-T002 | Preencher ou marcar pendências dos indicadores | Gestão operacional | SPEC-1-001 | CA-1-001..003 | GREEN baseline | Indicadores com fonte/status | T1.1 | A | ☑ |
+| F1-T004 | Mapear a jornada de 16 passos no contexto do piloto | Consultor Adapta | SPEC-1-002 | CA-1-005 | GREEN mapa | Mapa com 16 passos preenchidos | Escopo aprovado | A | ◐ |
+| F1-T007 | Congelar versão de referência do projeto Skip | TI + Consultor | SPEC-1-003 | CA-1-010 | GREEN inventário | Registro da versão congelada | Acesso ao projeto | A | ☑ |
+| F1-T003 | Registrar método de medição e obter aprovação | Consultor + Leonardo | SPEC-1-001 | CA-1-004 | REGRESSÃO método | Método registrado com aceite | T1.2 | B | ◐ |
 | F1-T005 | Consolidar grupos de dados e inventário de integrações | Consultor + TI | SPEC-1-002 | CA-1-006, 007 | GREEN mapa | Grupos com dono + integrações | T1.4 | B | ☐ |
-| F1-T008 | Inventariar e classificar todas as áreas do Skip | Consultor Adapta | SPEC-1-003 | CA-1-011, 012 | GREEN inventário | Inventário classificado | T1.7 | B | ☐ |
+| F1-T008 | Inventariar e classificar todas as áreas do Skip | Consultor Adapta | SPEC-1-003 | CA-1-011, 012 | GREEN inventário | Inventário classificado | T1.7 | B | ☑ |
 | F1-T006 | Registrar decisões 1 e 2 da seção 17 e coletar aceites | Leonardo + TI + Consultor | SPEC-1-002 | CA-1-008, 009 | REGRESSÃO aceite | Aceites das 5 áreas | T1.4, T1.5 | C | ☐ |
 | F1-T009 | Criar projeto Supabase e migrações de instituição/unidade/vínculo | Consultor Adapta | SPEC-1-004 | CA-1-016 | GREEN fundação | Migrações aplicadas em dev | T1.6 | D | ☐ |
 | F1-T010 | Implementar Auth, convites, bloqueio e MFA | Consultor Adapta | SPEC-1-004 | CA-1-014 | GREEN MFA | Fluxo de MFA demonstrado | T1.9 | E | ☐ |
 | F1-T011 | Implementar RLS por papel/instituição + auditoria de negações | Consultor Adapta | SPEC-1-004 | CA-1-013, 015, 016 | RED/GREEN RLS | Logs com prova negativa | T1.9, T1.10 | F | ☐ |
 | F1-T012 | Modelar e implementar cadastro de pacientes | Consultor Adapta | SPEC-1-005 | CA-1-019 | GREEN cadastro | Migrações + RLS testado | T1.11 | G | ☐ |
 | F1-T014 | Implementar auditoria append-only e políticas de Storage | Consultor Adapta | SPEC-1-006 | CA-1-020, 021 | RED/GREEN auditoria | Logs + políticas testadas | T1.11 | G | ☐ |
-| F1-T013 | Implementar duplicidade, conferência e fusão | Consultor Adapta | SPEC-1-005 | CA-1-017, 018 | RED/GREEN duplicidade | Logs dos 3 cenários | T1.12 | H | ☐ |
+| F1-T013 | Implementar duplicidade, conferência e fusão | Consultor Adapta | SPEC-1-005 | CA-1-018 | RED/GREEN duplicidade | Logs dos 3 cenários | T1.12 | H | ☐ |
 | F1-T015 | Registrar decisão de região/retenção/backup e ensaiar restauração | TI + Consultor | SPEC-1-006 | CA-1-022 | REGRESSÃO restauração | Relatório do ensaio | T1.14 | H | ☐ |
 | F1-T016 | Construir telas essenciais e executar demonstração de aceite | Consultor + Leonardo | SPEC-1-007 | CA-1-023..025 | GREEN demonstração | Ata + vídeo + aceites | T1.13, T1.15 | I | ☐ |
 

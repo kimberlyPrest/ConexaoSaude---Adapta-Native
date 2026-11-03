@@ -1,1 +1,2 @@
-- 2026-11-03 · tasks F1-T001/F1-T002/F1-T007 · sem sinal reutilizável · entregas documentais verificadas, sem incidente ou causa raiz nova.
+- 2026-11-03T16:37:25-03:00 · tasks F1-T001/F1-T002/F1-T007 · sem sinal reutilizável · entregas documentais verificadas, sem incidente ou causa raiz nova.
+- 2026-11-03T16:53:08-03:00 · task F1-T008 · sinal capturado: 06_notas/aprendizado-continuo/AP-2026-11-03-1653-inventario-skip-projeto-certo.md

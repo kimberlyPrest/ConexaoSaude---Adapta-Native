@@ -6,3 +6,26 @@
 - 2026-10-06: replanejamento da Fase 1 sobre o escopo integral (24/09) aprovado: 7 SPECs, 25 critérios de aceite, 16 tasks em 9 levas. Handoff da Fase 1 publicado.
 
 - 30/10/2026 · [CONSULTORIA] · Correção de auditoria do commit dadeeee: as seções novas tratavam aprovação do método, aceites por área e assinatura da TI como fechamento automático. Corrigida somente a orientação de teste/fechamento nas SPEC-1-001/002/006, AGENTS, fase e STATUS. Mantidos os critérios originais, TDD, regras, responsáveis, pré-condições, status e histórico; a demonstração final da SPEC-1-007 continua obrigatória. Nenhuma decisão humana foi tomada pelo agente, nenhum teste foi executado nem task fechada por esta correção documental.
+
+## 2026-11-03 — Execução autorizada pelo cliente
+- [Tesla] F1-T001 concluída: estrutura dos três indicadores em 06_notas/baseline/indicadores.csv; 12 campos, RED de ausência e GREEN de completude executados.
+- [Tesla] F1-T002 concluída: indicadores a medir com pendências explícitas e fonte; fila ≈100 dias apenas como referência verbal do escopo. Sem inventar medição, datas ou aceite.
+- [Tesla] F1-T007 concluída no recorte CA-1-010: data, URLs e módulos registrados em 06_notas/inventario-skip/referencia.md. Atual 15b9ef0, produção 659822f, campo dev e918fe5; nenhuma alteração, QA ou publicação no Skip. Registro não é backup restaurável.
+- [Tesla] F1-T004 em espera: rascunho de 16 passos em 06_notas/jornada/mapa.md; faltam fontes oficiais e contexto real por etapa, não declarado como mapa aprovado.
+- [Tesla] F1-T003 em andamento: método proposto em 06_notas/baseline/metodo-medicao.md; aguardando Leonardo/gestão para aprovação e parâmetros operacionais. CA-1-004 e SPEC-1-001 não concluídos. Pedido de implementação não é aprovação do método.
+- [Tesla] Associação operacional registrada em 07-sistemas/plataforma-oncologica/plataforma.md, sem espelho ou mudança do executável.
+
+- Envio pendente: tentativas pelo conector GitHub retornaram 404 ao criar tree e arquivo. Diagnóstico: conta leonardofq-alt sem permissão de escrita (403 ao consultar colaboradores). Corrigido depois por convite; commits d5a30cb e 0a1c8b9 em main.
+- Pedido do cliente em 03/11: “implementar no Skip a primeira tarefa”. F1-T001 é artefato documental; painel no app está fora do escopo da SPEC-1-001 (painéis são F20/Fase 5). Nada foi alterado no Skip; decisão registrada abaixo.
+
+## 2026-11-03 — Decisão do cliente sobre a F1-T001 no Skip
+- DECISÃO DO CLIENTE (Leonardo, 03/11/2026 16:48 BRT): **opção A — manter a F1-T001 como documento e seguir a fase.** A estrutura do baseline permanece em 06_notas/baseline (indicadores.csv + README), fora do aplicativo. Não será criada tela de baseline no Skip nesta fase; painéis seguem fora do escopo da Fase 1 conforme a SPEC-1-001 (F20/Fase 5).
+- DECISÃO DO CLIENTE (Leonardo, 03/11/2026 16:48 BRT): convidar a conta `leonardofq-alt` com permissão de escrita no repositório kimberlyPrest/ConexaoSaude---Adapta-Native. Envio ao GitHub permanece pendente até a permissão existir; conferência será feita pelo próprio conector.
+- Efeito: nenhuma mudança de escopo, SPEC ou critério de aceite. F1-T001/T002/T007 seguem concluídas por prova documental; F1-T003 e F1-T004 seguem em espera por aprovação/confirmação humana.
+
+- Envio ao GitHub concluído após o convite da conta leonardofq-alt: commits d5a30cb e 0a1c8b9 em main. Pendência de escrita resolvida; leitura e gravação conferidas pelo conector.
+
+## 2026-11-03 — F1-T008 concluída
+- [Tesla] F1-T008 concluída (CA-1-011, CA-1-012): inventário em 06_notas/inventario-skip/inventario.md. 18 áreas classificadas com dono, objetivo e situação; cinco erros comprovados com arquivo e trecho.
+- Descoberta: o inventário da seção 2 do escopo refere-se ao projeto 50880 Oncologista Clínico Virtual (PocketBase, 0.0.42/0645000, não publicado), e não ao 64011. Os dois foram separados no registro; nenhum foi alterado.
+- CID genérico não comprovado em cidMapping.ts; mantido como "a confirmar". Nenhum dado de paciente foi lido, copiado ou migrado.
