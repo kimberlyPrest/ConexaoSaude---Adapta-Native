@@ -29,3 +29,4 @@
 - [Tesla] F1-T008 concluída (CA-1-011, CA-1-012): inventário em 06_notas/inventario-skip/inventario.md. 18 áreas classificadas com dono, objetivo e situação; cinco erros comprovados com arquivo e trecho.
 - Descoberta: o inventário da seção 2 do escopo refere-se ao projeto 50880 Oncologista Clínico Virtual (PocketBase, 0.0.42/0645000, não publicado), e não ao 64011. Os dois foram separados no registro; nenhum foi alterado.
 - CID genérico não comprovado em cidMapping.ts; mantido como "a confirmar". Nenhum dado de paciente foi lido, copiado ou migrado.
+- Correção de regressão própria (03/11): ao reescrever 04_fase-atual/fase.md para atualizar status, o critério da F1-T013 perdeu o CA-1-017. Comparação com o arquivo original (99bcde9) mostrou a perda; o valor foi restaurado para "CA-1-017, 018". Nenhum outro campo, task ou critério foi alterado.

@@ -38,7 +38,7 @@ Por SPEC, não por task. Nesta fase é um teste: a demonstração por perfil da 
 | F1-T011 | Implementar RLS por papel/instituição + auditoria de negações | Consultor Adapta | SPEC-1-004 | CA-1-013, 015, 016 | RED/GREEN RLS | Logs com prova negativa | T1.9, T1.10 | F | ☐ |
 | F1-T012 | Modelar e implementar cadastro de pacientes | Consultor Adapta | SPEC-1-005 | CA-1-019 | GREEN cadastro | Migrações + RLS testado | T1.11 | G | ☐ |
 | F1-T014 | Implementar auditoria append-only e políticas de Storage | Consultor Adapta | SPEC-1-006 | CA-1-020, 021 | RED/GREEN auditoria | Logs + políticas testadas | T1.11 | G | ☐ |
-| F1-T013 | Implementar duplicidade, conferência e fusão | Consultor Adapta | SPEC-1-005 | CA-1-018 | RED/GREEN duplicidade | Logs dos 3 cenários | T1.12 | H | ☐ |
+| F1-T013 | Implementar duplicidade, conferência e fusão | Consultor Adapta | SPEC-1-005 | CA-1-017, 018 | RED/GREEN duplicidade | Logs dos 3 cenários | T1.12 | H | ☐ |
 | F1-T015 | Registrar decisão de região/retenção/backup e ensaiar restauração | TI + Consultor | SPEC-1-006 | CA-1-022 | REGRESSÃO restauração | Relatório do ensaio | T1.14 | H | ☐ |
 | F1-T016 | Construir telas essenciais e executar demonstração de aceite | Consultor + Leonardo | SPEC-1-007 | CA-1-023..025 | GREEN demonstração | Ata + vídeo + aceites | T1.13, T1.15 | I | ☐ |
 
